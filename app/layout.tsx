@@ -1,4 +1,5 @@
 // app/layout.js
+import './globals.css';
 
 export const metadata = {
   metadataBase: new URL('https://diabete-random-generate.vercel.app/'), 
@@ -12,7 +13,7 @@ export const metadata = {
   openGraph: {
     title: "당뇨 식단 고민 끝! 1초 만에 짜주는 식단표",
     description: "식품교환표 기준으로 영양 밸런스를 맞춘 식단을 지금 바로 확인해보세요.",
-    url: 'https://your-project-name.vercel.app',
+    url: 'ttps://diabete-random-generate.vercel.app',
     siteName: '당뇨 식단 생성기',
     locale: 'ko_KR',
     type: 'website',
